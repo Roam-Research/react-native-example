@@ -1,0 +1,5 @@
+/.cpcache/
+/.shadow-cljs/
+/logs/
+/react-native/target/
+/react-native/node_modules/

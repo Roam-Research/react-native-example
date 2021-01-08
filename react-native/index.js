@@ -1,0 +1,2 @@
+
+import "./target/index.js";

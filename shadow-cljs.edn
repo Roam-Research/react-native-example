@@ -1,0 +1,10 @@
+{:deps true
+ :js-options {:js-package-dirs ["react-native/node_modules"]}
+ :builds {:app {:target :react-native
+                :init-fn roam.client.main/init
+                :output-dir "react-native/target"
+                :dev {:compiler-options {:infer-externs :auto}
+                      :devtools {:repl-pprint true}}
+                :release {:compiler-options {:infer-externs :auto
+                                             :optimizations :advanced
+                                             :source-map false}}}}}
